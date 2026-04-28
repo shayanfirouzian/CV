@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shayan Firouzian H. | CV for PhD Applications</title>
+<link rel="stylesheet" href="./Shayan Firouzian H. _ CV for PhD Applications_files/all.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com/">
+<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+<link href="./Shayan Firouzian H. _ CV for PhD Applications_files/css2" rel="stylesheet">
+<style>
+  :root {
+    --primary: #0f172a;       /* Slate 900 */
+    --secondary: #334155;     /* Slate 700 */
+    --accent: #2563eb;        /* Academic Blue */
+    --text-main: #374151;     /* Gray 700 */
+    --muted: #64748b;         /* Slate 500 */
+    --rule: #e2e8f0;          /* Slate 200 */
+    --soft: #f8fafc;          /* Slate 50 */
+    --bg-outside: #eef2f7;
+  }
+
+  * { box-sizing: border-box; }
+
+  html, body {
+    margin: 0;
+    padding: 0;
+    background: var(--bg-outside);
+    color: var(--text-main);
+    font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  @page { 
+    size: A4; 
+    margin: 0; /* Handled by container */
+  }
+
+  /* Screen preview wrapper */
+  .page {
+    width: 210mm;
+    min-height: 297mm;
+    margin: 2rem auto;
+    background: white;
+    border-radius: 4px;
+    box-shadow: 0 20px 25px -5px rgba(15, 23, 42, 0.1), 0 8px 10px -6px rgba(15, 23, 42, 0.1);
+    position: relative;
+    overflow: hidden;
+  }
+
+  .inner {
+    padding: 16mm 16mm 14mm; /* Carefully tuned for A4 one-pager */
+  }
+
+  .topbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 6px;
+    background: linear-gradient(90deg, #0f172a 0%, #2563eb 50%, #94a3b8 100%);
+  }
+
+  header {
+    margin-bottom: 20px;
+  }
+
+  h1 {
+    margin: 0;
+    font-family: "Newsreader", serif;
+    font-size: 32px;
+    line-height: 1.1;
+    letter-spacing: -0.02em;
+    color: var(--primary);
+    font-weight: 600;
+  }
+
+  .headline {
+    margin-top: 4px;
+    font-size: 13px;
+    letter-spacing: 0.05em;
+    color: var(--accent);
+    font-weight: 600;
+  }
+
+  .summary {
+    margin: 12px 0 0;
+    font-size: 11.5px;
+    line-height: 1.6;
+    color: var(--secondary);
+    max-width: 175mm;
+  }
+
+  .contact {
+    margin-top: 14px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px 14px;
+    font-size: 11px;
+    color: var(--muted);
+    font-weight: 500;
+  }
+
+  .contact span {
+    display: flex;
+    align-items: center;
+  }
+
+  .contact span:not(:first-child)::before {
+    content: "•";
+    margin-right: 14px;
+    color: #cbd5e1;
+    font-size: 14px;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: 1.6fr 1fr;
+    gap: 22px;
+    margin-top: 20px;
+  }
+
+  section { 
+    margin-bottom: 18px; 
+    break-inside: avoid; 
+  }
+
+  h2 {
+    margin: 0 0 10px;
+    font-size: 13.5px;
+    letter-spacing: 0.03em;
+    color: var(--primary);
+    font-weight: 700;
+    padding-bottom: 6px;
+    border-bottom: 1.5px solid var(--rule);
+  }
+
+  .item { 
+    margin-bottom: 14px; 
+    break-inside: avoid; 
+  }
+
+  .item:last-child {
+    margin-bottom: 0;
+  }
+
+  .item-head {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: baseline;
+    flex-wrap: wrap;
+    margin-bottom: 3px;
+  }
+
+  .item-title {
+    font-size: 12.5px;
+    font-weight: 600;
+    color: var(--primary);
+    line-height: 1.3;
+  }
+
+  .item-meta {
+    font-size: 11px;
+    font-weight: 500;
+    color: var(--muted);
+    white-space: nowrap;
+  }
+
+  .item-body {
+    font-size: 11px;
+    line-height: 1.55;
+    color: var(--text-main);
+  }
+
+  ul { 
+    margin: 6px 0 0 16px; 
+    padding: 0; 
+  }
+  
+  li { 
+    margin-bottom: 4px; 
+    padding-left: 2px;
+  }
+  
+  li::marker {
+    color: #94a3b8;
+  }
+
+  .tight li { 
+    margin-bottom: 3px; 
+  }
+
+  .ref-item {
+    margin-bottom: 8px;
+  }
+  
+  .ref-item:last-child {
+    margin-bottom: 0;
+  }
+
+  .chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-top: 10px;
+  }
+
+  .chip {
+    display: inline-block;
+    padding: 4px 10px;
+    border: 1px solid var(--rule);
+    background: white;
+    border-radius: 6px;
+    font-size: 10px;
+    font-weight: 500;
+    color: var(--secondary);
+    line-height: 1.2;
+    box-shadow: 0 1px 2px rgba(15, 23, 42, 0.03);
+  }
+
+  .panel {
+    background: var(--soft);
+    border: 1px solid var(--rule);
+    border-radius: 8px;
+    padding: 12px;
+    font-size: 11px;
+    line-height: 1.55;
+    color: var(--text-main);
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.01);
+  }
+
+  .small { 
+    font-size: 10.5px; 
+    line-height: 1.5; 
+  }
+
+  em {
+    color: var(--secondary);
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: border-color 0.2s, color 0.2s;
+  }
+
+  a:hover {
+    color: var(--accent);
+    border-bottom-color: var(--accent);
+  }
+
+  .contact a {
+    display: flex;
+    align-items: center;
+    border-bottom: none;
+  }
+  
+  .contact a:hover {
+    color: var(--primary);
+  }
+
+  .contact i {
+    color: #94a3b8;
+    margin-right: 5px;
+    font-size: 12px;
+  }
+
+  .ref-item i {
+    color: #94a3b8;
+    margin-right: 4px;
+    font-size: 10px;
+  }
+
+  .footer {
+    margin-top: 12px;
+    padding-top: 12px;
+    border-top: 1px solid var(--rule);
+    font-size: 9.5px;
+    color: #94a3b8;
+    text-align: center;
+    font-weight: 500;
+  }
+
+  /* Print optimizations */
+  @media print {
+    html, body {
+      background: white;
+      width: 100%;
+      height: 100%;
+    }
+    .page {
+      margin: 0;
+      width: 100%;
+      min-height: 100%;
+      border: none;
+      border-radius: 0;
+      box-shadow: none;
+    }
+    .topbar {
+      -webkit-print-color-adjust: exact;
+      print-color-adjust: exact;
+    }
+    .panel, .chip {
+      -webkit-print-color-adjust: exact;
+      print-color-adjust: exact;
+    }
+  }
+
+  /* Responsive fallback for mobile viewing */
+  @media (max-width: 900px) {
+    .page { 
+      width: auto; 
+      margin: 0; 
+      border-radius: 0; 
+      box-shadow: none; 
+    }
+    .grid { 
+      grid-template-columns: 1fr; 
+      gap: 16px;
+    }
+    .inner { 
+      padding: 24px; 
+    }
+  }
+</style>
+</head>
+<body>
+  <div class="page">
+    <div class="topbar"></div>
+    <div class="inner">
+      <header>
+        <h1>Shayan Firouzian H.</h1>
+        <div class="headline">PhD Applicant in Complexity Science</div>
+        <p class="summary">
+          M.Sc. candidate in Industrial &amp; Systems Engineering working on emergence, diffusion and adoption dynamics, system dynamics, social network analysis, and LLM-enabled agent-based modelling. Research emphasis on how local interaction rules generate macro-level collective behaviour across socio-economic and socio-ecological systems.
+        </p>
+        <div class="contact">
+          <span><a href="mailto:shayanfirouzian@gmail.com"><i class="fas fa-envelope"></i> shayanfirouzian@gmail.com</a></span>
+          <span><a href="https://linkedin.com/in/shayanfirouzian" target="_blank"><i class="fab fa-linkedin"></i> linkedin.com/in/shayanfirouzian</a></span>
+          <span><a href="https://scholar.google.com/citations?user=LusXp6wAAAAJ" target="_blank"><i class="fa-brands fa-google-scholar"></i> Google Scholar</a></span>
+          <span><i class="fas fa-map-marker-alt"></i> Iran</span>
+        </div>
+      </header>
+
+      <div class="grid">
+        <main>
+          <section>
+            <h2>Research Profile</h2>
+            <div class="panel">
+              I work on complex adaptive systems, with a focus on emergence, network effects, diffusion and adoption, and policy-relevant modelling. My broader methodological interests include system dynamics, agent-based modelling, machine learning, and the use of generative AI/LLMs for computational social science.
+            </div>
+            <div class="chips">
+              <span class="chip">Emergence</span>
+              <span class="chip">Complex Dynamic Systems</span>
+              <span class="chip">Diffusion &amp; Adoption</span>
+              <span class="chip">Social Network</span>
+              <span class="chip">System Dynamics</span>
+              <span class="chip">LLM &amp; Generative AI</span>
+            </div>
+          </section>
+
+          <section>
+            <h2>Education</h2>
+            <div class="item">
+              <div class="item-head">
+                <div class="item-title">M.Sc. in Industrial &amp; Systems Engineering (Systems Modeling &amp; Data Analytics)</div>
+                <div class="item-meta">K. N. Toosi Univ. of Technology · 2024–2026</div>
+              </div>
+              <div class="item-body">GPA: 16.76/20 · Thesis: <em>Investigating Dynamics of Diffusion and Adoption in Socio-Economic Systems under Different Network Topologies and Demographic Compositions: A Generative Agent-Based Modeling Approach</em></div>
+            </div>
+            <div class="item">
+              <div class="item-head">
+                <div class="item-title">B.Sc. in Industrial &amp; Systems Engineering</div>
+                <div class="item-meta">University of Tehran · 2020–2024</div>
+              </div>
+              <div class="item-body">GPA: 15.16/20 · Thesis: <em>An Agent-based Model Simulation Approach to Demonstrate Effects of Aging Population and Social Service Policies on Pensions Fund and Its Long-term Socio-economic Consequences</em></div>
+            </div>
+          </section>
+
+          <section>
+            <h2>Selected Research Experience</h2>
+            <div class="item">
+              <div class="item-head">
+                <div class="item-title">Sharif University of Technology — Data Science &amp; Machine Learning Laboratory</div>
+                <div class="item-meta">Adjunct Researcher · Feb 2025–Present</div>
+              </div>
+              <div class="item-body">Generative AI and LLM applications with emphasis on social network analysis and network formation.</div>
+            </div>
+            <div class="item">
+              <div class="item-head">
+                <div class="item-title">Sharif University of Technology — Center for Studies in Socio-Economic Systems</div>
+                <div class="item-meta">Researcher &amp; Systems Expert · Sep 2024–Present</div>
+              </div>
+              <div class="item-body">
+                <ul class="tight">
+                  <li>Built models for dynamic and complex socio-economic systems.</li>
+                  <li>Created causal-loop and stock-flow diagrams; developed reference modes and validation studies.</li>
+                  <li>Modelled public reaction, policy adoption, air pollution, and energy imbalance scenarios.</li>
+                </ul>
+              </div>
+            </div>
+            <div class="item">
+              <div class="item-head">
+                <div class="item-title">University of Tehran — Systems Analysis Laboratory</div>
+                <div class="item-meta">Research Assistant · Sep 2023–Present</div>
+              </div>
+              <div class="item-body">Data-driven system dynamics model for air pollution and public health in Tehran, including policy analysis of mortality and morbidity burdens.</div>
+            </div>
+          </section>
+
+          <section>
+            <h2>Selected Publications</h2>
+            <ul class="tight small">
+              <li>Firouzian H., S. (2026). <em>Investigating Dynamics of Diffusion and Adoption in Socio-Economic Systems under Different Network Topologies and Demographic Compositions: A Generative Agent-Based Modeling Approach</em>. Master’s thesis (to be defended).</li>
+              <li>Firouzian H., S. (2024). <em>An Agent-based Model Simulation Approach to Demonstrate Effects of Aging Population and Social Service Policies on Pensions Fund and Its Long-term Socio-economic Consequences</em>. DOI: <a href="https://doi.org/10.48550/arXiv.2504.01242" target="_blank">10.48550/arXiv.2504.01242</a>.</li>
+              <li>Firouzian H., S., Eslami, P., &amp; Foroughi, M. H. (2025). <em>From Text to Map; Why Not Vice Versa, and Beyond? Investigating the Application of LLMs in Interpreting SD Models’ Output Graphs</em>. International System Dynamics Conference.</li>
+              <li>Firouzian H., S., Eshghollahi, S. E., Ziari, M., Tavakkoli-Moghaddam, R., &amp; Rezaei, P. (2025). <em>A Blockchain-based Approach to Enhance Transparency and Sustainability in a Joint Pricing and Closed-loop Supply Chain Network Design Problem</em>. Journal of Environmental Management. DOI: <a href="https://doi.org/10.1016/j.jenvman.2025.127463" target="_blank">10.1016/j.jenvman.2025.127463</a>.</li>
+            </ul>
+          </section>
+        </main>
+
+        <aside>
+          <section>
+            <h2>Research Fit</h2>
+            <div class="panel small">
+              <ul class="tight">
+                <li>Complex networks and diffusion dynamics</li>
+                <li>Emergence and collective behaviour</li>
+                <li>System dynamics and policy modelling</li>
+                <li>LLM-powered generative agent-based modelling</li>
+              </ul>
+            </div>
+          </section>
+
+          <section>
+            <h2>Technical Skills</h2>
+            <div class="panel small">
+              Python · MATLAB · R · SPSS · NetLogo · Vensim · GAMS · QGIS · ML workflows · Causal-loop and stock-flow modelling
+            </div>
+          </section>
+
+          <section>
+            <h2>Teaching &amp; Service</h2>
+            <div class="panel small">
+              <ul class="tight">
+                <li>Graduate Teaching Assistant, System Dynamics — Sharif University of Technology</li>
+                <li>Graduate Research and Teaching Assistant, Economics and Systems Analysis — University of Tehran</li>
+                <li>Member of Executive Committee, 5th International Conference on System Dynamics &amp; Systems Thinking</li>
+                <li>Reviewer, 43rd and 44th International System Dynamics Conferences</li>
+              </ul>
+            </div>
+          </section>
+
+          <section>
+            <h2>Additional Experience</h2>
+            <div class="panel small">
+              Energy systems modelling, resource allocation, water resources analysis, logistics, and supply-chain optimisation.
+            </div>
+          </section>
+
+          <section>
+            <h2>Languages</h2>
+            <div class="panel small">Persian (native) · English (C1) · French (A2)</div>
+          </section>
+
+          <section>
+            <h2>References</h2>
+            <div class="panel small">
+              <div class="ref-item">
+                <strong>Prof. A. N. Mashayekhi</strong><br>
+                Sharif Univ. of Technology · <a href="mailto:Mashayekhi@sharif.edu"><i class="fas fa-envelope"></i> <em>Mashayekhi@sharif.edu</em></a>
+              </div>
+              <div class="ref-item">
+                <strong>Prof. S. F. Ghaderi</strong><br>
+                University of Tehran · <a href="mailto:Ghaderi@ut.ac.ir"><i class="fas fa-envelope"></i> <em>Ghaderi@ut.ac.ir</em></a>
+              </div>
+              <div class="ref-item">
+                <strong>Assoc. Prof. H. Shakouri G.</strong><br>
+                University of Tehran · <a href="mailto:Hshakouri@ut.ac.ir"><i class="fas fa-envelope"></i> <em>Hshakouri@ut.ac.ir</em></a>
+              </div>
+            </div>
+          </section>
+        </aside>
+      </div>
+
+      
+    </div>
+  </div>
+
+</body></html>
